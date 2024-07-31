@@ -1,0 +1,49 @@
+[
+    {
+      "id": 1,
+      "title": "Ad Banner 1",
+      "description": "This is the first ad banner",
+      "cta": "Click Here",
+      "image": "/images/banner1.jpg",
+      "background": "#f3f4f6"
+    },
+    {
+      "id": 2,
+      "title": "Ad Banner 2",
+      "description": "This is the second ad banner",
+      "cta": "Shop Now",
+      "image": "/images/banner1.jpg",
+      "background": "#e5e7eb"
+    },
+    {
+        "id": 3,
+        "title": "Ad Banner 3",
+        "description": "This is the third ad banner",
+        "cta": "Shop third",
+        "image": "/images/banner1.jpg",
+        "background": "#e5e7eb"
+      },
+      {
+        "id": 4,
+        "title": "Ad Banner 4",
+        "description": "This is the fourth ad banner",
+        "cta": "Shop Now fourth",
+        "image": "/images/banner1.jpg",
+        "background": "#e5e7eb"
+      },{
+        "id": 5,
+        "title": "Ad Banner 5",
+        "description": "This is the fifth ad banner",
+        "cta": "Shop Now fifth",
+        "image": "/images/banner1.jpg",
+        "background": "#e5e7eb"
+      },{
+        "id": 6,
+        "title": "Ad Banner 6",
+        "description": "This is the sixth ad banner",
+        "cta": "Shop Now sixth",
+        "image": "/images/banner1.jpg",
+        "background": "#e5e7eb"
+      }
+  ]
+  
