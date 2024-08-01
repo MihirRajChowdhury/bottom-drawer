@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Box, Modal, TextField, Button } from '@mui/material';
 import { AdBanner } from '../utils/types';
-
+{/* <TextField label="Image" name="image" value={updatedAd.image} onChange={handleChange} fullWidth margin="normal" /> */}
 interface EditBannerTemplateBsProps {
   open: boolean;
   ad: AdBanner;
@@ -32,7 +32,7 @@ const EditBannerTemplateBs: React.FC<EditBannerTemplateBsProps> = ({ open, ad, o
         <TextField label="Title" name="title" value={updatedAd.title} onChange={handleChange} fullWidth margin="normal" />
         <TextField label="Description" name="description" value={updatedAd.description} onChange={handleChange} fullWidth margin="normal" />
         <TextField label="CTA" name="cta" value={updatedAd.cta} onChange={handleChange} fullWidth margin="normal" />
-        <TextField label="Image" name="image" value={updatedAd.image} onChange={handleChange} fullWidth margin="normal" />
+        
         <TextField label="Background" name="background" value={updatedAd.background} onChange={handleChange} fullWidth margin="normal" />
         <Button variant="contained" color="primary" onClick={handleSave}>Save</Button>
       </Box>
